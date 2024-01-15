@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+  <div class="form">
+    <input type="email" name="email" placeholder="Enter Email Here">
+    <input type="password" name="" placeholder="Enter Password Here">
+    <button class="btnn"><a href="#">Login</a></button>
+
+
+    <p class="link">Don't have an account<br>
+    <a href="#">Sign up </a> here</a></p>
+    <button class="open-button" onclick="openForm()">Register Here</button>
+
+</div>
+
+<div class="form-popup" id="myForm">
+   <form  class="form-container">
+     <h1 style="font-size: 1.75rem;">Create Account</h1>
+ 
+     <input type="text" placeholder="Enter Email" name="email" required>
+ 
+     <input type="password" placeholder="Enter Password" name="psw" required>
+ 
+     <input type="password" placeholder="Confirm Password" name="psw" required>
+     
+     <button type="submit" class="btn">Signup</button>
+     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+   </form>
+ </div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+ </div>
+
+
+ <script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+
+</body>
+
+</html>
